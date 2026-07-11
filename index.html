@@ -19,14 +19,14 @@
 <meta property="og:title" content="Raiym Bilal — Director · Producer · Writer" />
 <meta property="og:description" content="Crafting stories through cinema, commercial filmmaking, and visual storytelling." />
 <meta property="og:url" content="https://raiymbilal.com/" />
-<meta property="og:image" content="https://raiymbilal.com/assets/Raiym_Photo.png" />
+<meta property="og:image" content="https://raiymbilal.com/Assets/Raiym_Photo.png" />
 <meta property="og:site_name" content="Raiym Bilal" />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Raiym Bilal — Director · Producer · Writer" />
 <meta name="twitter:description" content="Crafting stories through cinema, commercial filmmaking, and visual storytelling." />
-<meta name="twitter:image" content="https://raiymbilal.com/assets/Raiym_Photo.png" />
+<meta name="twitter:image" content="https://raiymbilal.com/Assets/Raiym_Photo.png" />
 
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 
@@ -324,7 +324,7 @@ body.cursor-on a,body.cursor-on button{cursor:none}
   animation:hsweep 12s ease-in-out infinite;
 }
 @keyframes hsweep{0%{left:-40%}50%{left:100%}100%{left:100%}}
-/* real reel video — drop assets/hero-reel.mp4 and it fades in over the ambient */
+/* real reel video — drop Assets/hero-reel.mp4 and it fades in over the ambient */
 .hero-bg video{
   position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
   opacity:0;transition:opacity 1.4s var(--ease);
@@ -722,9 +722,9 @@ body.cursor-on a,body.cursor-on button{cursor:none}
   <div class="hero-bg">
     <div class="ambient"></div>
     <div class="sweep"></div>
-    <!-- Drop a looping film reel at assets/hero-reel.mp4 and it fades in automatically. -->
+    <!-- Drop a looping film reel at Assets/hero-reel.mp4 and it fades in automatically. -->
     <video id="heroVideo" muted loop playsinline preload="none" poster="">
-      <source src="assets/hero-reel.mp4" type="video/mp4" />
+      <source src="Assets/hero-reel.mp4" type="video/mp4" />
     </video>
   </div>
   <div class="hero-overlay"></div>
@@ -744,7 +744,7 @@ body.cursor-on a,body.cursor-on button{cursor:none}
 
     <div class="hero-cta reveal" data-delay="4">
       <a href="#work" class="btn btn-primary" data-magnetic>View My Work</a>
-      <a href="assets/Raiym_CV_2026.pdf" download class="btn btn-ghost" data-magnetic>
+      <a href="Assets/Raiym_CV_2026.pdf" download class="btn btn-ghost" data-magnetic>
         Download CV
         <svg viewBox="0 0 24 24"><path d="M12 3v13m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
       </a>
@@ -845,7 +845,7 @@ body.cursor-on a,body.cursor-on button{cursor:none}
         </a>
       </div>
 
-      <a href="assets/Raiym_CV_2026.pdf" download class="btn btn-ghost contact-cv" data-magnetic>
+      <a href="Assets/Raiym_CV_2026.pdf" download class="btn btn-ghost contact-cv" data-magnetic>
         Download CV
         <svg viewBox="0 0 24 24"><path d="M12 3v13m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
       </a>
@@ -913,13 +913,13 @@ body.cursor-on a,body.cursor-on button{cursor:none}
      The FIRST video in each category is shown large (featured).
 
    ► TO ADD A SCRIPT (Writing section):
-     Add an object to SITE_DATA.scripts. Put the PDF in assets/scripts/
+     Add an object to SITE_DATA.scripts. Put the PDF in Assets/scripts/
      and point "pdf" at it. Set "featured:true" to make a card larger.
 
    ► TO REPLACE THE HERO REEL:
-     Save a looping clip as  assets/hero-reel.mp4  — it fades in on its own.
+     Save a looping clip as  Assets/hero-reel.mp4  — it fades in on its own.
 
-   ► TO REPLACE THE CV:  overwrite  assets/Raiym_Bilal_CV.pdf
+   ► TO REPLACE THE CV:  overwrite  Assets/Raiym_Bilal_CV.pdf
 ================================================================== */
 const SITE_DATA = {
 
@@ -986,10 +986,10 @@ const SITE_DATA = {
     { title:"Afterimage", format:"Short Film", genre:"Psychological Drama",
       status:"Produced", year:"2026", role:"Writer · Director", pages:"6 pages",
       awards:"",
-      cover:src="assets/Afterimage_Cover.png",
+      cover:src="Assets/Afterimage_Cover.png",
       logline:"A film student drowning in intrusive thoughts is handed an assignment about focus — until the noise they've held back finally breaks the surface.",
       synopsis:"Afterimage follows a film student whose mind refuses to stay quiet. Given a photography exercise built around a single point of focus, they're pulled under by a rising flood of intrusive images and sounds — memories, doubts, and old rejections — that culminate in an outburst they can't take back. As the faculty debates punishment, one teacher recognises the difference between disrespect and a quiet call for help, and chooses to listen.",
-      pdf:"assets/scripts/afterimage_script.pdf", film:"#work", featured:true },
+      pdf:"Assets/scripts/afterimage_script.pdf", film:"#work", featured:true },
   ],
 
   /* ---------- EXPERIENCE ---------- */
